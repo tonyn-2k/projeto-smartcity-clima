@@ -1,0 +1,75 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #1a2b4d;
+}
+
+/* O card principal com as infos */
+.card-clima {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.card-clima h2 {
+    margin-top: 0;
+    color: #1e90ff; /* Azul */
+}
+
+.info-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.info-principal img {
+    width: 80px; /* Tamanho do ícone */
+    height: 80px;
+}
+
+#temperatura {
+    font-size: 3.5rem; /* 56px */
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.info-detalhes p {
+    margin: 8px 0;
+    font-size: 1.1rem; /* 18px */
+}
+
+.info-detalhes span {
+    font-weight: 600;
+}
+
+.atualizacao {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* O card do gráfico */
+.card-grafico {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}

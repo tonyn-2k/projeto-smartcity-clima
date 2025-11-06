@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Smart City - Clima</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <h1>Monitor de Clima (Smart City)</h1>
+        <p>Dados atualizados dinamicamente da OpenWeatherMap.</p>
+
+        <div class="card-clima">
+            <h2 id="cidade-nome">Buscando dados...</h2>
+            
+            <div class="info-principal">
+                <img id="icone-clima" src="http://openweathermap.org/img/wn/10d@2x.png" alt="Ícone do clima">
+                <span id="temperatura">--°C</span>
+            </div>
+
+            <div class="info-detalhes">
+                <p>Clima: <span id="descricao-clima">--</span></p>
+                <p>Sensação: <span id="sensacao-termica">--°C</span></p>
+                <p>Humidade: <span id="humidade">--%</span></p>
+            </div>
+            
+            <p class="atualizacao">Última atualização: <span id="ultima-atualizacao">--</span></p>
+        </div>
+
+        <div class="card-grafico">
+            <h3>Gráfico (Exemplo)</h3>
+            <canvas id="meuGrafico"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
