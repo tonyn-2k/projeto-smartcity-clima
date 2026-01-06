@@ -1,9 +1,9 @@
 {
     "cidade_nome": "Belo Horizonte",
-    "temperatura": 19.58,
-    "sensacao_termica": 20.07,
-    "humidade": 95,
+    "temperatura": 20.01,
+    "sensacao_termica": 20.49,
+    "humidade": 93,
     "descricao_clima": "Névoa",
     "icone_clima": "50d",
-    "ultima_atualizacao": "06/01/2026 17:45:14"
+    "ultima_atualizacao": "06/01/2026 18:22:16"
 }
