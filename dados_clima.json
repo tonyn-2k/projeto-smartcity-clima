@@ -1,9 +1,9 @@
 {
     "cidade_nome": "Belo Horizonte",
-    "temperatura": 25.44,
-    "sensacao_termica": 25.74,
-    "humidade": 65,
+    "temperatura": 24.38,
+    "sensacao_termica": 24.75,
+    "humidade": 72,
     "descricao_clima": "Trovoadas",
     "icone_clima": "11d",
-    "ultima_atualizacao": "24/01/2026 20:40:53"
+    "ultima_atualizacao": "24/01/2026 20:51:21"
 }
