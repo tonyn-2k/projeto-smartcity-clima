@@ -1,9 +1,9 @@
 {
     "cidade_nome": "Belo Horizonte",
-    "temperatura": 20.64,
-    "sensacao_termica": 20.64,
-    "humidade": 72,
-    "descricao_clima": "Algumas nuvens",
-    "icone_clima": "02n",
-    "ultima_atualizacao": "02/09/2026 22:21:02"
+    "temperatura": 18.83,
+    "sensacao_termica": 18.83,
+    "humidade": 79,
+    "descricao_clima": "Chuva leve",
+    "icone_clima": "10n",
+    "ultima_atualizacao": "03/09/2026 00:25:57"
 }
